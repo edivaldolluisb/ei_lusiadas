@@ -5,7 +5,7 @@
 }
 
 nav {
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     display: flex;
@@ -31,13 +31,8 @@ nav {
 
 .nav-links li {
     list-style: none;
-    padding: 1%;
 }
 
-.nav-links li:hover{
-    transition: 1s;
-    background-color: aqua;
-}
 .nav-links a {
     color: rgb(226, 226, 226);
     text-decoration: none;
@@ -119,6 +114,8 @@ nav {
 .toggle .line3 {
     transform: rotate(45deg) translate(-5px, -6px);
 }
+
+
 
 
 
