@@ -37,6 +37,7 @@ nav {
 .nav-links li:hover{
     transition: 1s;
     background-color: aqua;
+    border-radius:3px;
 }
 .nav-links a {
     color: rgb(226, 226, 226);
