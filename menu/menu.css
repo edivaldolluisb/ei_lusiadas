@@ -34,7 +34,7 @@ nav {
     padding: 1%;
 }
 
-.nav-links li a:hover{
+.nav-links li:hover{
     transition: 1s;
     background-color: aqua;
 }
