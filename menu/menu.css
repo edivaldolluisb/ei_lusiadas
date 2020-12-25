@@ -44,6 +44,7 @@ nav{
 .menu-hover:hover{
     background-color: rgb(138, 170, 159);
     transition: 1s;
+    border-radius: 3px;
 }
 
 /*destivar o slide menu para pc*/
