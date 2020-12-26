@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="menu/menu.css">
+    <link rel="stylesheet" href="menu/menu.js">
+    <link rel="stylesheet" href="agenda.css">
+    <link rel="stylesheet" href="./agenda/calendario.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+
+    <title>E.I Sala13</title>
+</head>
+
+<body>
+    <!--start of mn-->
+    <nav>
+        <div class="logo">
+            <h4>Eng. Informática</h4>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="cadeiras.html">Cadeiras</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="anos.html">Anos</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+    <script src="menu/menu.js"></script>
+
+    <!--end of menu-->
+
+    <div>
+        <section id="Eventos-datas">
+            <h1>Eventos Marcados:</h1><br>
+            <h3>Dias de teste:</h3>
+            <p> TOE - dia 3/2/2021</p>
+            <p> I.A.M - dia 23/2/2021 </p>
+            <p>I.A.L - dia 17/2/2021</p>
+            <p>Inglês - dia definir</p>
+            <p>I.A.C - dia a definir</p><br>
+            <h3>Dias para Entregas de Trabalhos:</h3>
+            <p>I.A.L - 6/1/2021</p>
+
+        </section>
+    <div id="espaco"></div>
+    </div>
+
+    <div id="calendario_da_agenda">
+        <br><br><br>
+        <div class="calendar">
+            <div class="header">
+                <a data-action="prev-month" href="javascript:void(0)" title="Previous Month"><i></i></a>
+                <div class="text" data-render="month-year"></div>
+                <a data-action="next-month" href="javascript:void(0)" title="Next Month"><i></i></a>
+            </div>
+            <div class="months" data-flow="left">
+                <div class="month month-a">
+                    <div class="render render-a"></div>
+                </div>
+                <div class="month month-b">
+                    <div class="render render-b"></div>
+                </div>
+            </div>
+        </div>
+        <script src="./agenda/calendario.js"></script>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>

@@ -1,11 +1,15 @@
 
 .todos_anos{
-    position: relative;
+    
     padding: 2px;
     margin: 2%;
 }
 .anos{
     padding: 2%;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .anos h1{
     border-radius: 13px;
@@ -18,4 +22,21 @@
 .anos p{
     font-family: 'Josefin Sans', sans-serif;  
     font-weight: 400;
+}
+.anos a:hover{
+    color: brown;
+    background-color: black;
+}
+.anos p:hover{
+    
+    background-image: linear-gradient(to right,rgb(255, 153, 128), rgb(153, 204, 255), rgb(0, 153, 153));
+}
+.btn_anos{
+    margin: 3%;
+    display: flexbox;
+    background-color: rgb(204, 245, 255);
+    border-radius: 4px;
+    border-style: none;
+    padding: 2%;
+    cursor: pointer;
 }
