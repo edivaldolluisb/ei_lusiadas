@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(9, 170, 170);
+    background-color: rgb(216, 231, 231);
 }
 
 nav {
@@ -35,10 +35,10 @@ nav {
 }
 #prev_menu{
     width: 20%;
-    margin: 2%;
-    cursor: pointer;
-    
+    margin: 4% ;
+    cursor: pointer;    
 }
+
 main{
     display: flexbox;
 }
@@ -48,19 +48,39 @@ main{
     border-radius: 20px;
     margin-top: 1%;
     margin-left: 2%;
-    margin-right: 50%;
+    margin-right: 45%;
     color: rgb(255, 255, 204) ;
     transition-duration: 1000ms;
-}
-.prev_img{
-    width: 20%;
+    font-family: "Poppins", sans-serif;
     
 }
+
 .ttsem:hover{
     width: 90%;
-    transition-timing-function: ease-ou, 1000ms;
     background-color: #50caca;
 }
+.Semestres{
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2%;
+    margin: 2%;
+}
 
+.btn button{
+    border: #4c6767;
+    background-color: rgb(189, 223, 223);
+    padding: 3%;
+    border-radius: 5vh;
+    margin: 5%;
+    margin-left: 2%;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    
+    
+}
+.btn button:hover{
+    background-image: linear-gradient(to right, rgb(189, 223, 223), rgb(179, 255, 179));
+    transition-duration: 10000ms;
+}
 
-
+    
