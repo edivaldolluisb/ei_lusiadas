@@ -1,11 +1,61 @@
-#Eventos-datas{
-    margin: 3%;
-    padding: 2%;
-    border-radius: 10px;
+
+.eventos{
     
-    background-color: white;
-    font-family:'Courier New', Courier, monospace;
+    padding: 2px;
+    margin: 2%;
 }
-#espaco{
-    margin-bottom: 110%;
+.teste{
+    padding: 2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.teste h2{
+    margin-right: 60%;
+    margin-bottom: 2%;
+    border-radius: 13px;
+    padding: 3%;
+    background-image: linear-gradient(to right,rgb(0, 230, 77),rgb(179, 255, 179));
+    font-family: 'Josefin Sans', sans-serif;  
+    font-weight: 400;
+}
+.teste h3{
+    border-radius: 13px;
+    padding: 3%;
+    background-color: rgb(0, 179, 179);
+    font-family: 'Josefin Sans', sans-serif;  
+    font-weight: 400;
+
+}
+.teste h4{
+    margin-right: 60%;
+    margin-top: 2%;
+    border-radius: 13px;
+    padding: 2% ;
+    background-color: rgb(0, 204, 204);
+    font-family: 'Josefin Sans', sans-serif;  
+    font-weight: 400;
+}
+
+.teste p{
+    font-family: 'Josefin Sans', sans-serif;  
+    font-weight: 400;
+}
+.teste a:hover{
+    color: brown;
+    
+}
+.teste p:hover{
+    background-color: rgb(76, 230, 0);
+}
+
+.btn_anos{
+    margin: 3%;
+    display: flexbox;
+    background-color: rgb(179, 255, 204);
+    border-radius: 4px;
+    border-style: none;
+    padding: 2%;
+    cursor: pointer;
 }
