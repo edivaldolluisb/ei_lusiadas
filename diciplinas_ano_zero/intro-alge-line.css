@@ -48,7 +48,7 @@ nav {
     font-family: "Poppins", sans-serif;
     text-align: center;
     align-items: center;
-    font-size: 5ch;
+    font-size: 1%;
 }
 #disciplina:hover{
     background-color: rgb(26, 163, 255);
@@ -98,4 +98,4 @@ main{
     transition-duration: 10000ms;
 }
 
-    
+  

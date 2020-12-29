@@ -41,14 +41,15 @@ nav {
     padding: 10px;
     background-color: DeepSkyBlue ;
     border-radius: 20px;
-    margin: 15% auto;
-    margin: 3%;
+    margin: 10% auto;
+    margin: 2%;
     color: rgb(255, 255, 204) ;
     transition-duration: 1000ms;
     font-family: "Poppins", sans-serif;
     text-align: center;
     align-items: center;
-    font-size: 5ch;
+    font-size: 1pt;
+    
 }
 #disciplina:hover{
     background-color: rgb(26, 163, 255);
@@ -98,4 +99,4 @@ main{
     transition-duration: 10000ms;
 }
 
-    
+ 
