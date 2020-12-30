@@ -6,6 +6,7 @@
 
 
 #dwld_calendario button{
+    display: block;
     padding: 3%;
     border-radius: 15px;
     cursor: pointer;
@@ -15,7 +16,9 @@
     background-color: white; 
     color: black; 
     border: 2px solid #008CBA; 
+    text-decoration: none;
 }
+
 #dwld_calendario button:hover{
     background-color: #008CBA;
     color: white;
@@ -27,3 +30,18 @@
     padding: 10%;
 }
   
+@media screen and (min-width: 800px){
+    .calendario-escolar{
+        width: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;   
+        
+    }
+    #dwld_calendario button{
+        display: block;
+        text-decoration: none;
+
+    }
+
+}
