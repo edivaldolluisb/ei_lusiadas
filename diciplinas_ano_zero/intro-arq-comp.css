@@ -41,15 +41,14 @@ nav {
     padding: 10px;
     background-color: DeepSkyBlue ;
     border-radius: 20px;
-    margin: 10% auto;
-    margin: 2%;
+    margin: 15% auto;
+    margin: 3%;
     color: rgb(255, 255, 204) ;
     transition-duration: 1000ms;
     font-family: "Poppins", sans-serif;
     text-align: center;
     align-items: center;
-    font-size: 1pt;
-    
+    font-size: 5ch;
 }
 #disciplina:hover{
     background-color: rgb(26, 163, 255);
@@ -58,7 +57,7 @@ nav {
 main{
     display: flexbox;
 }
-.ttsem{
+.arq_h{
     padding: 10px;
     background-color: #4c6767 ;
     border-radius: 20px;
@@ -68,14 +67,16 @@ main{
     color: rgb(255, 255, 204) ;
     transition-duration: 1000ms;
     font-family: "Poppins", sans-serif;
+    text-align: center;
+    
     
 }
 
-.ttsem:hover{
+.arq_h:hover{
     width: 90%;
     background-color: #50caca;
 }
-.Semestres{
+.Sessao1{
     background-color: white;
     border-radius: 1rem;
     padding: 2%;

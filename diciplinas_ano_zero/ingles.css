@@ -20,7 +20,6 @@ nav {
     background-color: #5D4954;
     font-family: "Poppins", sans-serif;
 }
-
 .logo {
     color: rgb(226, 226, 226);
     text-transform: uppercase;
@@ -57,7 +56,7 @@ nav {
 main{
     display: flexbox;
 }
-.ttsem{
+.arq_h{
     padding: 10px;
     background-color: #4c6767 ;
     border-radius: 20px;
@@ -67,14 +66,14 @@ main{
     color: rgb(255, 255, 204) ;
     transition-duration: 1000ms;
     font-family: "Poppins", sans-serif;
-    
+    text-align: center;     
 }
 
-.ttsem:hover{
+.arq_h:hover{
     width: 90%;
     background-color: #50caca;
 }
-.Semestres{
+.Sessao1{
     background-color: white;
     border-radius: 1rem;
     padding: 2%;
@@ -89,13 +88,10 @@ main{
     margin: 5%;
     margin-left: 2%;
     cursor: pointer;
-    font-family: "Poppins", sans-serif;
-    
-    
+    font-family: "Poppins", sans-serif;    
 }
 .btn button:hover{
     background-image: linear-gradient(to right, rgb(189, 223, 223), rgb(179, 255, 179));
-    transition-duration: 10000ms;
 }
 
     
