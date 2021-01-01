@@ -1,0 +1,37 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.mapa{
+    display: none;
+}
+.info{
+    margin: 2%;
+    overflow: hidden;
+    text-align: justify;
+}
+
+.info h4{
+    padding: 2vh;
+    background-color: rgb(255, 179, 102);
+    border-radius: 8px;
+    margin-bottom: 2vh;
+}
+.info p, .info li{
+    background-color: rgb(230, 176, 176); 
+    padding: 1vh;
+}
+
+.info img{
+    display: block;
+    width: 100%;
+    margin-bottom: 1.5%;
+}
+@media only screen and (max-width: 1000px){
+    div.desk{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1000px){
+
+}
