@@ -54,28 +54,33 @@ footer{
     width: auto;
     height: auto;
     text-align: center;
-    
 }
 footer div{
     display: flexbox;
-    
 }
 .cinfo{
     margin: 4px;
     display: inline;
 }
-.cinfo p{
-    
+.cinfo p{ 
     display: inline;
 }
 
 @media only screen and (max-width: 999px){
     div.desk{
-        display: none;
+        display: flexbox;
+    }
+    .cinfo a{
+        text-decoration: none;
+    }
+    .desk p:hover, .desk li:hover{
+        background-color: white;
+    }
+    footer{
+        margin-top: 20%;
     }
     .mapa{
-        display: none;
-        
+        display: none;  
     }
 }
 
@@ -87,9 +92,18 @@ footer div{
     #aside{
         width: 40%;
         float: right;
-        margin-top: 1.5vh;
-        
-        
+        margin-top: 1.5vh;   
     }
 
+}
+
+/*footer mobile*/
+@media only screen and (max-width:714px){
+    .cinfo p{
+        display: none;
+        margin-left: 20%;
+    }
+    footer{
+
+    }
 }
