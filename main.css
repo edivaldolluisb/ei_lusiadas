@@ -65,6 +65,9 @@ footer div{
 .cinfo p{ 
     display: inline;
 }
+.cinfo a{
+    text-decoration: none;
+}
 
 @media only screen and (max-width: 999px){
     div.desk{
@@ -98,7 +101,7 @@ footer div{
 }
 
 /*footer mobile*/
-@media only screen and (max-width:714px){
+@media only screen and (max-width:750px){
     .cinfo p{
         display: none;
         margin-left: 20%;
