@@ -1,9 +1,7 @@
 *{
     font-family: "Poppins", sans-serif;
 }
-.mapa{
-    display: none;
-}
+
 .info{
     margin: 2%;
     overflow: hidden;
@@ -16,22 +14,82 @@
     border-radius: 8px;
     margin-bottom: 2vh;
 }
-.info p, .info li{
-    background-color: rgb(230, 176, 176); 
-    padding: 1vh;
-}
-
 .info img{
     display: block;
     width: 100%;
     margin-bottom: 1.5%;
 }
-@media only screen and (max-width: 1000px){
+.desk p, .desk li{
+    padding: 1vh;
+}
+.desk p:hover, .desk li:hover{
+    background-color: #a8e8d8;
+    border-radius: 4px;
+}
+#Spmore{
+    display: none;
+}
+
+#rmSp{
+    /*saidas profissionais read more*/
+    border-radius: 4px;
+    padding: 1%;
+    background-color: #79c8e7;
+    border-style: none;
+}
+#spro_section{
+    padding: 2%;background-color: #a8e8d8;
+    border-radius: 5px;
+    text-align: center;
+    margin: 3%;
+}
+#spro_section:hover{
+    background-image: linear-gradient(to right, #79c8e7, #8DEAD6);
+}
+footer{
+    clear: both;
+    margin-top: 2%;
+    padding: 2%;
+    background-color:  #89e2da;
+    width: auto;
+    height: auto;
+    text-align: center;
+    
+}
+footer div{
+    display: flexbox;
+    
+}
+.cinfo{
+    margin: 4px;
+    display: inline;
+}
+.cinfo p{
+    
+    display: inline;
+}
+
+@media only screen and (max-width: 999px){
     div.desk{
         display: none;
+    }
+    .mapa{
+        display: none;
+        
     }
 }
 
 @media only screen and (min-width: 1000px){
+    #informacao{
+        width: 60%;
+        float: left;
+    }
+    #aside{
+        width: 40%;
+        float: right;
+        margin-top: 1.5vh;
+        
+        
+    }
 
 }
