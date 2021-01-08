@@ -3,7 +3,7 @@
     "short_name": "Engenharia Informática",
     "start_url": "index.html",
     "background_color":"#7a938f",
-    "theme_color":"#919e9b",
+    "theme_color":"withe",
     "display":"standalone",
     "description": "A news app.",
     "icons":[
