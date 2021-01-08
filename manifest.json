@@ -1,0 +1,22 @@
+{
+    "name": "Engenharia Informática",
+    "short_name": "Engenharia Informática",
+    "start_url": "index.html",
+    "background_color":"#7a938f",
+    "theme_color":"#919e9b",
+    "display":"standalone",
+    "description": "A news app.",
+    "icons":[
+    {
+        "src":"icon2.png",
+        "sizes":"512x512",
+        "type":"image/png"
+    },
+    {
+        "src":"icon.png",
+        "sizes":"240x240",
+        "type":"image/png"
+    }
+    
+]
+}
