@@ -3,8 +3,8 @@
     "short_name": "E.Informática",
     "start_url": ".",
     "display":"standalone",
-    "background_color":"withe",
-    "theme_color":"withe",
+    "background_color":"#ffffff",
+    "theme_color":"#ffffff",
     "theme-color": "#ffffff",
     "description": "Site da engenharia informática",
     "icons":[

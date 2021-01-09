@@ -14,7 +14,11 @@ self.addEventListener('install', function(event){
                 './anos.html',
                 './anos.css',
                 './agenda.html',
-                './agenda.css'
+                './agenda.css',
+                //after working
+                './menu',
+                './htmls',
+                './home js'
             ])
         })
     )
