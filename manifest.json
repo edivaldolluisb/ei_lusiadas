@@ -1,11 +1,12 @@
 {
-    "name": "Engenharia Informática",
+    "name": "Engenharia Informática ULSTP",
     "short_name": "E.Informática",
-    "start_url": "index.html",
+    "start_url": ".",
+    "display":"standalone",
     "background_color":"withe",
     "theme_color":"withe",
-    "display":"standalone",
-    "description": "A news app.",
+    "theme-color": "#ffffff",
+    "description": "Site da engenharia informática",
     "icons":[
     {
         "src":"icon2.png",
