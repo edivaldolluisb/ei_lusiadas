@@ -60,11 +60,11 @@ h5{
     font-weight: 400;
 }
 .teste a:hover{
-    color: brown;
+    color: black;
     
 }
 .teste p:hover{
-    background-color: rgb(76, 230, 0);
+    background-color: rgb(0, 230, 211);
 }
 
 .btn_anos{
